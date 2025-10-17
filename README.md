@@ -1,8 +1,8 @@
 # cap_teste_leo
 
-Projeto de exemplo usando SAP Cloud Application Programming Model (CAP).
+Projeto de exemplo usando SAP CAP
 
-Este repositório contém um serviço simples que gerencia uma entidade `Person` e expõe duas ações:
+Este repositório contém um serviço que gerencia uma entidade `Person` e expõe duas ações:
 
 - `importData(payload: PersonList)` — importa uma lista de pessoas para a base.
 - `getNameById(id: Integer)` — retorna o nome da pessoa para um ID informado.
@@ -101,46 +101,3 @@ Definição em `db/schema.cds`:
 ## Testes locais
 
 Para testes rápidos sem um banco externo, você pode instalar o adaptador SQLite (já está como devDependency) e iniciar o CDS que criará a base local automaticamente.
-
-## Contribuição
-
-Pull requests são bem-vindos. Abra issues para bugs ou sugestões de melhoria.
-
-## Licença
-
-Por favor adicione uma licença ao repositório (por exemplo MIT) se desejar torná-lo público.
-
----
-
-Se quiser, eu posso também:
-
-- Adicionar scripts de npm para testes e debug.
-- Incluir um exemplo de `launch.json` para Visual Studio Code.
-- Criar um `Dockerfile` para empacotar a aplicação.
-
-Diga qual opção prefere e eu crio os artefatos.
-# Getting Started
-
-Welcome to your new project.
-
-It contains these folders and files, following our recommended project layout:
-
-File or Folder | Purpose
----------|----------
-`app/` | content for UI frontends goes here
-`db/` | your domain models and data go here
-`srv/` | your service models and code go here
-`package.json` | project metadata and configuration
-`readme.md` | this getting started guide
-
-
-## Next Steps
-
-- Open a new terminal and run `cds watch`
-- (in VS Code simply choose _**Terminal** > Run Task > cds watch_)
-- Start adding content, for example, a [db/schema.cds](db/schema.cds).
-
-
-## Learn More
-
-Learn more at https://cap.cloud.sap/docs/get-started/.
