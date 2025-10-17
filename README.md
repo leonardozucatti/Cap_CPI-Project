@@ -1,6 +1,6 @@
 # CAP Integration Project
 
-Este repositório demonstra uma integração entre **SAP CAP** e **SAP Cloud Integration (CPI)**, criando um fluxo de comunicação bidirecional entre aplicações Node.js OData e integrações de middleware.
+Este repositório demonstra uma integração entre uma API desenvolvida na tecnologia **SAP CAP** e **SAP Cloud Integration (CPI)**, criando um fluxo de comunicação bidirecional entre aplicações Node.js OData e integrações de middleware.
 
 ---
 
