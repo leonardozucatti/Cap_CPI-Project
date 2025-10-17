@@ -39,10 +39,10 @@ Cap_CPI-Project/
 
 ![Arquitetura CAP + CPI](CPI_CAP_Arquitetura.png)
 
-1. **CPI ImportPerson** recebe um JSON de entrada via HTTPS.
+1. **Iflow ImportPerson** recebe um JSON de entrada via HTTPS.
 2. O payload é transformado (JSON → XML → JSON) por meio de um **XSLT Mapping**.
 3. O JSON final é enviado para o **CAP service** (endpoint `/odata/v4/person/importData`).
-4. **CPI GetPerson** consome o endpoint `/odata/v4/person/getNameById` passando o parâmetro `id`.
+4. **Iflow GetPerson** consome o endpoint `/odata/v4/person/getNameById` passando o parâmetro `id`.
 5. O CAP retorna o nome correspondente ao ID informado.
 
 ---
