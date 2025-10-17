@@ -18,16 +18,23 @@ A arquitetura permite validar dados, transformar estruturas JSON/XML e expor end
 
 ```
 Cap_CPI-Project/
-├── cap_project/              # Projeto CAP (Node.js + OData)
+├── CAP/              # Projeto CAP (Node.js + OData)
 │   ├── srv/
 │   ├── db/
 │   ├── package.json
 │   └── README.md
 │
-├── integration_project/      # Projeto CPI (iFlows exportados)
+├── Integration/      # Projeto CPI (iFlows exportados)
 │   ├── Interface-ImportPerson.png
 │   ├── Interface-GetPerson.png
 │   └── Iflows.zip
+│   └── README.md
+│
+├── Testes/      # Testes Realizados (SAP CAP e SAP CPI)
+│   ├── Test-GetPerson.png
+│   ├── Test-ImportPerson.png
+│   ├── Test-Terminal.png
+│   └── README.md
 │
 ├── CPI_CAP_Arquitetura.png   # Arquitetura Geral CAP + CPI
 └── README.md                 # Este arquivo
