@@ -14,7 +14,7 @@ A arquitetura permite validar dados, transformar estruturas JSON/XML e expor end
 
 ---
 
-## 🧩 Estrutura do Repositório
+## Estrutura do Repositório
 
 ```
 Cap_CPI-Project/
@@ -35,7 +35,7 @@ Cap_CPI-Project/
 
 ---
 
-## 🏗️ Arquitetura da Solução
+## Arquitetura da Solução
 
 ![Arquitetura CAP + CPI](CPI_CAP_Arquitetura.png)
 
