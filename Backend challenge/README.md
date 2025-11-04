@@ -20,14 +20,17 @@ Este repositório contém a implementação completa do **Desafio Backend**, con
 ---
 
 ## Estrutura do Repositório
-backend-challenge/
-├─ src/
-│ ├─ index.ts # Soluções TypeScript dos itens 1.1, 1.2 e 1.3
-│ ├─ demo.ts # Script para testar as funções 1.1, 1.2 e 1.3
-│ └─ clean/
-│ └─ refactors.ts # Refatorações aplicadas conforme práticas de Clean Code etapa 3 - itens 3.1, 3.2 e 3.3
-├─ check.sql # Soluções SQL da etapa 2 - itens 2.1, 2.2, 2.3, 2.4, 2.5 e 2.6
-├─ package.json
-├─ tsconfig.json
-└─ README.md
+
+```
+Cap_CPI-Project/
+├── src/           
+│   ├─ index.ts                # Soluções TypeScript dos itens 1.1, 1.2 e 1.3
+│   ├─ demo.ts                 # Script para testar as funções 1.1, 1.2 e 1.3
+│   └─ clean/
+│   └── refactors.ts           # Refatorações aplicadas conforme práticas de Clean Code etapa 3 - itens 3.1, 3.2 e 3.3
+├── check.sql                  # Soluções SQL da etapa 2 - itens 2.1, 2.2, 2.3, 2.4, 2.5 e 2.6
+├── package.json
+├── tsconfig.json
+└── README.md                  # Este arquivo
+```
 
