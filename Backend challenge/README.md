@@ -23,6 +23,7 @@ Este repositório contém a implementação completa do **Desafio Backend**, con
 
 ```
 Cap_CPI-Project/
+├── Backend challenge/         # Repositório contém a implementação completa do **Desafio Backend**
 ├── src/           
 │   ├─ index.ts                # Soluções TypeScript dos itens 1.1, 1.2 e 1.3
 │   ├─ demo.ts                 # Script para testar as funções 1.1, 1.2 e 1.3
