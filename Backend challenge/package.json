@@ -1,0 +1,14 @@
+{
+  "name": "backend-challenge",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "ts-node src/demo.ts",
+    "build": "tsc",
+    "start": "node dist/demo.js"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
+
