@@ -1,6 +1,6 @@
 # Backend Challenge — TypeScript | SQL | Clean Code
 
-Este repositório contém a implementação completa do **Desafio Backend**, contemplando:
+Este repositório contém a implementação do **Desafio Backend**, contemplando:
 
 - **TypeScript** (Generics, Union Types, Imutabilidade)
 - **SQL** (consultas com JOIN, agregação e criação de VIEW)
@@ -23,7 +23,7 @@ Este repositório contém a implementação completa do **Desafio Backend**, con
 
 ```
 Cap_CPI-Project/
-├── Backend challenge/         # Repositório contém a implementação completa do **Desafio Backend**
+├── Backend challenge/         # Repositório contém a implementação do **Desafio Backend**
 ├── src/           
 │   ├─ index.ts                # Soluções TypeScript dos itens 1.1, 1.2 e 1.3
 │   ├─ demo.ts                 # Script para testar as funções 1.1, 1.2 e 1.3
