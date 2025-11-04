@@ -30,7 +30,7 @@ Dependências já listadas em `package.json`:
 1. Clone o repositório:
 
 ```powershell
-git clone <URL-DO-REPO>
+git clone https://github.com/leonardozucatti/Cap_CPI-Project
 cd cap_teste_leo
 ```
 
