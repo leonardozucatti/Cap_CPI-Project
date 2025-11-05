@@ -37,6 +37,5 @@ Cap_CPI-Project/
 ---
 
 ## Testes
-
-![backend-challenge_test]()
+![Captura Terminal VSCode](backend-challenge_test)
 
