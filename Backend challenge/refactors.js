@@ -1,4 +1,3 @@
-"use strict";
 /* 3.1 Refatoração de Código
 Original:
 function processItems(items: any[]) {
