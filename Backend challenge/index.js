@@ -6,21 +6,23 @@ exports.makeAllPositive = makeAllPositive;
 function extractValues(arr, key) {
     return arr.map(item => item[key]);
 }
+
+// 1.2 Validação e Tipagem com Union Types
 function calculate(op, a, b) {
     switch (op) {
         case 'add':
             return a + b;
-        case 'subtract':
+        case 'sub':
             return a - b;
-        case 'multiply':
+        case 'mult':
             return a * b;
         case 'divide':
             if (b === 0)
-                throw new Error('Division by zero');
+                throw new Error('Div by zero');
             return a / b;
         default: {
             const neverOp = op;
-            throw new Error(`Unsupported operation: ${neverOp}`);
+            throw new Error(`Error operation: ${neverOp}`);
         }
     }
 }
